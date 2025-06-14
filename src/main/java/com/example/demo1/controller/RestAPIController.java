@@ -10,7 +10,6 @@ public class RestAPIController {
 
     @GetMapping("/get")
     public String getResponse(){
-
         return "Hello world!!.";
     }
 }
